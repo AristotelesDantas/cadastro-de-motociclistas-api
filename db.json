@@ -1,0 +1,100 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "teste",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 2,
+      "name": "Teste3",
+      "email": "teste3@gmail.com",
+      "password": "Teste@123"
+    },
+    {
+      "name": "Teste4",
+      "email": "teste4@13",
+      "password": "Teste4&1",
+      "id": 8
+    }
+  ],
+  "veiculos": [
+    {
+      "veic": "Carro1",
+      "marca": "Yamaha",
+      "modelo": "Factor",
+      "placa": "NNG1234",
+      "date": "2022-10-15",
+      "comb": "Gasolina",
+      "id": 2
+    },
+    {
+      "veic": "Moto",
+      "marca": "Honda",
+      "modelo": "bros",
+      "placa": "hhh2543",
+      "date": "2022-11-08",
+      "comb": "Gasolina",
+      "id": 3
+    }
+  ],
+  "efetivos": [
+    {
+      "nomeBatismo": "Drak",
+      "nomeReal": "Ari",
+      "dateAsp": "2022-11-01",
+      "dateFechamento": null,
+      "id": 1,
+      "veiculo_id": [
+        1
+      ]
+    },
+    {
+      "nomeBatismo": "Drak3",
+      "nomeReal": "Ari",
+      "dateAsp": "2022-11-01",
+      "dateFechamento": null,
+      "id": 2,
+      "veiculo_id": [
+        1
+      ]
+    },
+    {
+      "veiculo_id": [
+        2
+      ],
+      "nameBatismo": "Drak2",
+      "nameReal": "Ari",
+      "dateAsp": "2022-11-01",
+      "dateFechamento": null,
+      "id": 3
+    },
+    {
+      "veiculo_id": [
+        2
+      ],
+      "nameBatismo": "Tete10",
+      "nameReal": "Eu",
+      "dateAsp": "2022-11-23",
+      "dateFechamento": null,
+      "id": 4
+    }
+  ]
+}
